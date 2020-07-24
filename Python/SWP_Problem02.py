@@ -28,8 +28,8 @@ def contiguousSubArrayOfSizeKWithMaxSum(arr, k):
 	return maxSum
 
 def main():
-	arr = [1, 3, 2, 6, -1, 4, 1, 8, 2]
-	k = 5
+	arr = [2, 1, 5, 1, 3, 2]
+	k = 3
 	ans = contiguousSubArrayOfSizeKWithMaxSum(arr, k)
 	print(ans)
 
